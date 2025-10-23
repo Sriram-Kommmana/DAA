@@ -8,11 +8,6 @@ This repository contains a C++ implementation of **Dinic's Algorithm**, a fast a
 - [Overview](#overview)
 - [Features](#features)
 - [How It Works](#how-it-works)
-- [Usage](#usage)
-- [Example](#example)
-- [Input Format](#input-format)
-- [Output](#output)
-- [References](#references)
 
 ---
 
@@ -48,10 +43,4 @@ Dinic's Algorithm is a **network flow algorithm** that finds the maximum flow in
 3. **Repeat:**
    - Rebuild the level graph and repeat DFS until the sink is unreachable.
 
----
 
-## Usage
-
-1. **Compile the program:**
-```bash
-g++ -std=c++17 -o dinic dinic.cpp
